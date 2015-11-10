@@ -14,6 +14,11 @@
 		E94C6E6E1BF1859E00407FA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E94C6E6C1BF1859E00407FA3 /* LaunchScreen.storyboard */; };
 		E94C6E791BF1859F00407FA3 /* mylittlemonsterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94C6E781BF1859F00407FA3 /* mylittlemonsterTests.swift */; };
 		E94C6E841BF1859F00407FA3 /* mylittlemonsterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94C6E831BF1859F00407FA3 /* mylittlemonsterUITests.swift */; };
+		E94C6E961BF1861000407FA3 /* cave-music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E94C6E911BF1861000407FA3 /* cave-music.mp3 */; };
+		E94C6E971BF1861000407FA3 /* bite.wav in Resources */ = {isa = PBXBuildFile; fileRef = E94C6E921BF1861000407FA3 /* bite.wav */; };
+		E94C6E981BF1861000407FA3 /* death.wav in Resources */ = {isa = PBXBuildFile; fileRef = E94C6E931BF1861000407FA3 /* death.wav */; };
+		E94C6E991BF1861000407FA3 /* heart.wav in Resources */ = {isa = PBXBuildFile; fileRef = E94C6E941BF1861000407FA3 /* heart.wav */; };
+		E94C6E9A1BF1861000407FA3 /* skull.wav in Resources */ = {isa = PBXBuildFile; fileRef = E94C6E951BF1861000407FA3 /* skull.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		E94C6E7F1BF1859F00407FA3 /* mylittlemonsterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mylittlemonsterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E94C6E831BF1859F00407FA3 /* mylittlemonsterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mylittlemonsterUITests.swift; sourceTree = "<group>"; };
 		E94C6E851BF1859F00407FA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E94C6E911BF1861000407FA3 /* cave-music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "cave-music.mp3"; sourceTree = "<group>"; };
+		E94C6E921BF1861000407FA3 /* bite.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bite.wav; sourceTree = "<group>"; };
+		E94C6E931BF1861000407FA3 /* death.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = death.wav; sourceTree = "<group>"; };
+		E94C6E941BF1861000407FA3 /* heart.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = heart.wav; sourceTree = "<group>"; };
+		E94C6E951BF1861000407FA3 /* skull.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = skull.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +112,11 @@
 				E94C6E671BF1859E00407FA3 /* Main.storyboard */,
 				E94C6E6A1BF1859E00407FA3 /* Assets.xcassets */,
 				E94C6E6C1BF1859E00407FA3 /* LaunchScreen.storyboard */,
+				E94C6E911BF1861000407FA3 /* cave-music.mp3 */,
+				E94C6E921BF1861000407FA3 /* bite.wav */,
+				E94C6E931BF1861000407FA3 /* death.wav */,
+				E94C6E941BF1861000407FA3 /* heart.wav */,
+				E94C6E951BF1861000407FA3 /* skull.wav */,
 				E94C6E6F1BF1859E00407FA3 /* Info.plist */,
 			);
 			path = mylittlemonster;
@@ -193,6 +208,7 @@
 				TargetAttributes = {
 					E94C6E5F1BF1859E00407FA3 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 56P3PHE54L;
 					};
 					E94C6E731BF1859F00407FA3 = {
 						CreatedOnToolsVersion = 7.1;
@@ -229,7 +245,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E94C6E9A1BF1861000407FA3 /* skull.wav in Resources */,
+				E94C6E971BF1861000407FA3 /* bite.wav in Resources */,
+				E94C6E981BF1861000407FA3 /* death.wav in Resources */,
+				E94C6E991BF1861000407FA3 /* heart.wav in Resources */,
 				E94C6E6E1BF1859E00407FA3 /* LaunchScreen.storyboard in Resources */,
+				E94C6E961BF1861000407FA3 /* cave-music.mp3 in Resources */,
 				E94C6E6B1BF1859E00407FA3 /* Assets.xcassets in Resources */,
 				E94C6E691BF1859E00407FA3 /* Main.storyboard in Resources */,
 			);
@@ -399,6 +420,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = mylittlemonster/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.thomasharris.mylittlemonster;
@@ -410,6 +432,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = mylittlemonster/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.thomasharris.mylittlemonster;
